@@ -1,0 +1,44 @@
+h1{
+	color:#1d1dd1;
+	font-weight: bold;
+}
+
+
+body{
+	background:#6bf4ee;
+}
+
+
+
+.navbar-inverse .navbar-brand{
+	background: blue;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+} /*byter saker med Titeln på sidan; exempelvis jennifers hemsida*/
+
+.navbar-inverse{
+	background: blue;
+} /*Byter saker med bakgrunden för resten av menyn*/
+
+.navbar-inverse .navbar-nav li a{
+	color: white;
+	font-family: 'Indie Flower', cursive;
+} /*Ändrar saker med TEXTEN på menyn (men inte titeln, tex. jennifers hemsida)*/
+
+
+#kladdmuffins{
+	width:35%;
+	float:right;
+	margin-right:20%;
+}
+
+#mugcake{
+	width:50%;
+	float:right;
+}
+
+#isglass{
+	widows:0%;
+	float:right;
+	margin-right:20%;
+}

@@ -1,0 +1,93 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        
+         <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">jennifers hemsida</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Djur</a></li>
+                        <li><a href="menyval2.html">Recept</a></li>
+                        <li><a href="menyval3.html">scratch=spel</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+
+    <h1>RECEPT PÅ OLIKA RÄTTER:</h1>
+    <h2>kladdkakemuffins</h2>
+    <img src="bilder/kladdmuffins.jpg" id="kladdmuffins">
+    <h2>INGREDIENSER:</h2>
+    <ul>
+    <li>2ägg</li>
+    <li>3dl socker</li>
+    <li>2dl mjöl</li>
+    <li>150g smält smör</li>
+    <li>6msk cacao</li>
+    <li>2tsk vaniljsocker</li>
+    <li>1krm salt</li>
+    <h2>ARBETSGÅNG:</h2>
+    <h6>Sätt ugnen på 200 grader och smält allt smör.</h6> 
+    <h6> Ta en melan stor bunke och häl i sockret, äggen och vispa tills du tycker det är klart.</h6>
+    <h6>Om du tyvker det är klart så häller du alla torra varor i en annan bunke och tar en ny visp eller sked och vispar tills allt är blandat.</h6>
+    <h6>Häll i lite i taget till den stora bunken, och om det blir svårt att blanda så kan du hälla i smöret. För du ska ändå hälla i smöret.</h6>
+    <h6>Häll sedan smeten i muffinsformar och sätt in dem i ungnen ca 13 minuter, och det skal bara vara kladdigt i mitten om det är det då vet man att de är klara:)</h6>
+    <h2>MUG CAKE: NUTELLA SOM EN FONDANT:</h2>
+    <img src="bilder/mugcake.jpg" id="mugcake">
+    <h3>INGREDIENSER</h3>
+    <li>1cm tjock skiva smör (30g)</li>
+    <li>3msk Nutella</li>
+    <li>1ägg</li>
+    <li>3msk socker</li>
+    <li>4msk vetemjöl</li>
+    <li>½tsk bakpulver</li>
+    <h3>FYLNING:</h3>
+    <li>1tsk Nutella</li>
+    <h4>I EN MUG:</h4>
+    <h6>Låt smöret smälta tillsammans med Nutella 30 sekunder i mikron(800 watt).</h6>
+    <h6>Vispa tills smöret och nutellakrämen blandats ordentligt och låt blandningen svalna något.</h6>
+    <h6>Vispa sedan successivt ner ägg, socker, vetemjöl och bakpulver.</h6>
+    <h6>Tillaga 40 sekunder i mikron(800 watt).</h6>
+    <h6>Tillsätt fyllningen av nutella och tillaga ytterligare 40 sekunder(800 watt).</h6>
+    <h6>Låt stå och svalna i 1 minut innan servering</h6>
+    <img src="bilder/isglass.jpg" id="isglass">
+    </ul>
+    </main>
+</body>
+</html>
